@@ -1,3 +1,10 @@
+// C言語
+// コンパイラ : Apple clang version 11.0.3 (clang-1103.0.32.62)
+// コンパイル : gcc -o main main.c
+
+//    1行コメント
+/* 複数行コメント */
+
 #include<stdio.h>
 
 int main (void){
