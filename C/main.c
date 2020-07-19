@@ -1,20 +1,39 @@
 #include<stdio.h>
 
 int main (void){
-  printf("Hello World!\n");
+
+  int a=2, b=5;
+  char str[20]="Hello World!";
+
+  printf("%s\n",str);
+  printf("\n");
 
   int addition, subtraction,  multiplication;
   float division;
 
-  addition       = 2 + 5;
-  subtraction    = 2 - 5;
-  multiplication = 2 * 5;
-  division       = 2.0 / 5.0;
+  addition       = a + b;
+  subtraction    = a - b;
+  multiplication = a * b;
+  division       = (float)a / (float)b;
 
-  printf("addition:%d\n",addition);
-  printf("subtraction:%d\n",subtraction);
-  printf("multiplication:%d\n",multiplication);
-  printf("division:%f\n",division);
+  printf("addition: \n %d + %d = %d\n",a, b, addition);
+  printf("subtraction: \n %d - %d = %d\n",a, b, subtraction);
+  printf("multiplication: \n %d * %d = %d\n",a, b, multiplication);
+  printf("division: \n %d / %d = %0.2f\n",a, b, division);
+  printf("\n");
+
+  for (int i=0; i<4; i++){
+    if (i == 0){
+      printf("if for:%d\n",i);
+    }
+    else if (0 < i && i <3){
+      printf("elseif for:%d\n",i);
+    }
+    else {
+      printf("else for:%d\n",i);
+    }
+  }
+  printf("\n");
 
   return 0;
 }
