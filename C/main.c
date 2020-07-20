@@ -7,13 +7,26 @@
 
 #include<stdio.h>
 
+void add_sub_multi_divi (int a, int b);
+void fizz_buzz (int count);
+
 int main (void){
 
-  int a=2, b=5;
+  // Hello World
   char str1[20]="Hello World!";
-
   printf("%s\n",str1);
   printf("\n");
+
+  // 四則演算
+  add_sub_multi_divi (2, 5);
+
+  // Fizz Buzz (if and for)
+  fizz_buzz(100);
+
+  return 0;
+}
+
+void add_sub_multi_divi (int a, int b){
 
   int addition, subtraction,  multiplication;
   float division;
@@ -29,18 +42,24 @@ int main (void){
   printf("division: \n %d / %d = %0.2f\n",a, b, division);
   printf("\n");
 
-  for (int i=0; i<4; i++){
-    if (i == 0){
-      printf("if for:%d\n",i);
+  return;
+}
+
+void fizz_buzz(int count) {
+  for (int i=1; i<=count; i++){
+    if (i % 15 == 0){
+      printf("FizzBuzz! ");
     }
-    else if (0 < i && i <3){
-      printf("elseif for:%d\n",i);
+    else if (i % 5 == 0){
+      printf("Fizz! \n");
+    }
+    else if (i % 3 == 0){
+      printf("Buzz! ");
     }
     else {
-      printf("else for:%d\n",i);
+      printf("%d ", i);
     }
   }
   printf("\n");
-
-  return 0;
+  return;
 }

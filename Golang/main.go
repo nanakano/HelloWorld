@@ -45,4 +45,13 @@ func main() {
   fmt.Println(a, "/", b, "=", division)
   fmt.Println()
 
+  for i := 0; i< 4; i++ {
+    if (i == 0) {
+      fmt.Println("if for: ", i)
+    } else if (0 < i && i < 3) {
+      fmt.Println("else_if for: ", i)
+    } else{
+      fmt.Println("else for: ", i)
+    }
+  }
 }
