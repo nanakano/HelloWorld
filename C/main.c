@@ -7,23 +7,31 @@
 
 #include<stdio.h>
 
-void add_sub_multi_divi (int a, int b);
-void fizz_buzz (int count);
+void hello();
+void add_sub_multi_divi(int a, int b);
+void fizz_buzz(int count);
 
 int main (void){
 
   // Hello World
-  char str1[20]="Hello World!";
-  printf("%s\n",str1);
-  printf("\n");
+  hello();
 
   // 四則演算
-  add_sub_multi_divi (2, 5);
+  add_sub_multi_divi(2, 5);
 
   // Fizz Buzz (if and for)
   fizz_buzz(100);
 
   return 0;
+}
+
+void hello (){
+
+  char str1[20]="Hello World!";
+  printf("%s\n",str1);
+  printf("\n");
+
+  return;
 }
 
 void add_sub_multi_divi (int a, int b){
