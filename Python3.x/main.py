@@ -1,5 +1,7 @@
 #!/bin/python3
 
+# 1行コメント
+""" 複数行コメント """
 a   = 2
 b   = 5
 str1 = "Hello World!"
