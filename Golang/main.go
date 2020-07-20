@@ -23,13 +23,24 @@ package main
 import "fmt"
 
 func main() {
-  a := 2
-  b := 5
-  str1 := "Hello World!"
 
+  hello()
+  add_sub_mult_divi(2, 5)
+  fizz_buzz(100)
+
+  return
+}
+
+func hello() {
+
+  str1 := "Hello World!"
   fmt.Println(str1)
   fmt.Println()
 
+  return
+}
+
+func add_sub_mult_divi(a int, b int){
   addition       := a + b
   subtraction    := a - b
   multiplication := a * b
@@ -45,13 +56,22 @@ func main() {
   fmt.Println(a, "/", b, "=", division)
   fmt.Println()
 
-  for i := 0; i< 4; i++ {
-    if (i == 0) {
-      fmt.Println("if for: ", i)
-    } else if (0 < i && i < 3) {
-      fmt.Println("else_if for: ", i)
-    } else{
-      fmt.Println("else for: ", i)
+  return
+}
+
+func fizz_buzz(count int){
+
+  for i:=1; i<=count; i++ {
+    if i % 15 == 0 {
+      fmt.Print("FizzBuzz! ")
+    } else if i % 5 == 0 {
+      fmt.Println("Fizz! ")
+    } else if i % 3 == 0 {
+      fmt.Print("Buzz! ")
+    } else {
+      fmt.Print(i, " ")
     }
   }
+
+  return
 }
