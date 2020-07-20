@@ -10,9 +10,9 @@
 int main (void){
 
   int a=2, b=5;
-  char str[20]="Hello World!";
+  char str1[20]="Hello World!";
 
-  printf("%s\n",str);
+  printf("%s\n",str1);
   printf("\n");
 
   int addition, subtraction,  multiplication;

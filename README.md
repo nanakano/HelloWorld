@@ -7,5 +7,9 @@
 - for文
 
 ## C言語
-- コンパイラ : Apple clang version 11.0.3 (clang-1103.0.32.62)
-- コンパイル : gcc -o main main.c
+- Compiler : Apple clang version 11.0.3 (clang-1103.0.32.62)
+- Command  : gcc -o main main.c
+
+## Python3.x
+- Version : Python3.7
+- Command : python3 main.py
