@@ -13,3 +13,8 @@
 ## Python3.x
 - Version : Python3.7
 - Command : python3 main.py
+
+## Golang
+- Version : 
+- Command : go run main.go
+- Command : go build main.go
