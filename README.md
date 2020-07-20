@@ -17,3 +17,7 @@
 - Version : go version go1.13.8 linux/amd64
 - Command : go run main.go
 - Command : go build main.go
+
+## Bash(Shell Script)
+- Version : GNU bash, version 5.0.16(1)-release (x86\_64-pc-linux-gnu)
+- Command : sh main.sh
