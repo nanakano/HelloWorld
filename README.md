@@ -3,11 +3,10 @@
 ## Hello World等とは
 - HelloWorld
 - 四則演算
-- if文
-- for文
+- FizzBuzz (if and for)
 
 ## C言語
-- Compiler : Apple clang version 11.0.3 (clang-1103.0.32.62)
+- Compiler : gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2)
 - Command  : gcc -o main main.c
 
 ## Python3.x
@@ -15,10 +14,16 @@
 - Command : python3 main.py
 
 ## Golang
-- Version : 
+- Version : go version go1.13.8 linux/amd64
 - Command : go run main.go
 - Command : go build main.go
 
+<<<<<<< HEAD
 ## Shell Script
 - Version : 
 - Command :
+=======
+## Bash(Shell Script)
+- Version : GNU bash, version 5.0.16(1)-release (x86\_64-pc-linux-gnu)
+- Command : sh main.sh
+>>>>>>> 86bd8cb455e799ab1ffa3d81b227d29bdd20ddb8
