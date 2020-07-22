@@ -18,12 +18,6 @@
 - Command : go run main.go
 - Command : go build main.go
 
-<<<<<<< HEAD
-## Shell Script
-- Version : 
-- Command :
-=======
 ## Bash(Shell Script)
 - Version : GNU bash, version 5.0.16(1)-release (x86\_64-pc-linux-gnu)
 - Command : sh main.sh
->>>>>>> 86bd8cb455e799ab1ffa3d81b227d29bdd20ddb8
